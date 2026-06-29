@@ -1,7 +1,9 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
-import project1 from "../assets/smart-rent-predictor.png"; // Add your project image
+import project1 from "../assets/smart-rent-predictor.png";
+import portfolio from "../assets/portfolio.png"
+
 
 const Projects = () => {
   const projects = [
@@ -25,7 +27,7 @@ const Projects = () => {
 
     {
       title: "Portfolio Website",
-      image: project1,
+      image: portfolio,
       description:
         "Personal portfolio built using React and Tailwind CSS showcasing projects, skills, resume, and contact information.",
       technologies: [
@@ -33,8 +35,8 @@ const Projects = () => {
         "Tailwind CSS",
         "JavaScript",
       ],
-      github: "https://github.com/yourusername/portfolio",
-      live: "https://yourportfolio.vercel.app",
+      github: "https://github.com/krishnenduka-ui/portfolio",
+      live: "https://portfolio-oloe.vercel.app",
     },
   ];
 
