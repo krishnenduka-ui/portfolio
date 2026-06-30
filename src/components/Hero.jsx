@@ -28,7 +28,7 @@ const Hero = () => {
             <span className="font-semibold"> React.js</span>, and
             <span className="font-semibold"> Node.js</span>. Passionate about
             creating modern web experiences with clean code, secure APIs, and
-            intuitive user interfaces.
+            user-friendly interfaces.
           </p>
 
           {/* Buttons */}
