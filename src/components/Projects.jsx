@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
-import project1 from "../assets/smart-rent-predictor.png";
+import projectpic from "../assets/smart-rent-predictor.png";
 import portfolio from "../assets/portfolio.png"
 
 
@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Smart Rent Predictor",
-      image: project1,
+      image: projectpic,
       description:
         "A full-stack MERN application that allows users to search, compare, and book rental properties with an intelligent rent prediction system. Includes role-based authentication, admin dashboard, and property management.",
       technologies: [
